@@ -2,8 +2,9 @@ import dotenv from 'dotenv';
 import express from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
-import allRoutes from './routes/allRoutes.js';
+
 import mongoose from 'mongoose';
+import allRoutes from "./routes/allRoutes.js";
 
 
 dotenv.config();
