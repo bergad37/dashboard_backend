@@ -6,4 +6,5 @@ const router=express.Router();
 router.use('/fetch',dataRoutes);
 
 
+
 export default router;

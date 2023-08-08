@@ -19,7 +19,7 @@ app.use(bodyParser.json({limit: '50mb', type: 'application/json'}));
 app.use("/api/v1",allRoutes)
 
 
-const port = process.env.PORT || 2000;
+const port = process.env.PORT || 5000;
 const host = process.env.HOST || 'localhost';
 
 
